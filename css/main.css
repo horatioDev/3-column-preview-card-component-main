@@ -88,6 +88,8 @@ textarea {
    ========================================================================== */
   /*****General Styles*****/
 
+  /****Mobile First*****/
+
    body {
     background-color: hsl(0, 0%, 95%);
     font-size: 15px;
@@ -97,32 +99,54 @@ textarea {
 
    p {
     color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 30px;
    }
 
-   h1, button {
+   h1 {
      color: hsl(0, 0%, 95%);
-     font-family: 'Lexend Deca', sans-serif;;
      text-transform: uppercase;
+   }
+
+   button {
+     border-radius: 25px;
+     background-color: hsl(0, 0%, 95%);
+     font-family: 'Lexend Deca', sans-serif;
+     padding: 15px 30px;
    }
 
    /*****Card Styles*****/
     #card {
       border: 2px red solid;
+      border-radius: 10px;
       display: flex;
-
+      flex-direction: column;
+      margin: 90px 20px;
     }
+
+    .cars {
+      padding: 50px 50px 40px;
+    }  
+
    /*****Sedans*****/
    .sedans {
      background-color: hsl(31, 77%, 52%);
-     
+   }
+   .sedans button {
+    color: hsl(31, 77%, 52%);
    }
    /*****Suvs*****/
    .suvs {
      background-color: hsl(184, 100%, 22%);
    }
+   .suvs button {
+     color: hsl(184, 100%, 22%);
+   }
    /*****Luxury*****/
    .luxury {
      background-color: hsl(179, 100%, 13%);
+   }
+   .luxury button{
+     color:hsl(179, 100%, 13%);
    }
 /* ==========================================================================
    Helper classes

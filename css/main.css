@@ -115,11 +115,11 @@ textarea {
    }
 
    /*****Card Styles*****/
-    #card {
+    .card {
       border: 2px red solid;
       border-radius: 10px;
       display: flex;
-      flex-direction: column;
+      flex-flow: row;
       margin: 90px 20px;
     }
 
@@ -236,8 +236,12 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 1440) {
+@media only screen and (min-width: 1400) {
   /* Style adjustments for viewports that meet the condition */
+
+  /*****Desktop Styles****/
+  .card {margin: 0;
+  }
 }
 
 @media print,

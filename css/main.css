@@ -86,7 +86,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /*****General Styles*****/
 
+   body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   p {
+    color: hsla(0, 0%, 100%, 0.75);
+   }
+
+   /*****Card Styles*****/
+
+   /*****Sedans*****/
+   /*****Suvs*****/
+   /*****Luxury*****/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,7 +195,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 1440) {
   /* Style adjustments for viewports that meet the condition */
 }
 

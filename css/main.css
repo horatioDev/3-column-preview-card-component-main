@@ -119,13 +119,13 @@ textarea {
       border: 2px red solid;
       border-radius: 10px;
       display: flex;
-      flex-flow: row;
+      flex-flow: wrap;
       margin: 90px 20px;
     }
 
     .cars {
       padding: 50px 50px 40px;
-    }  
+    }
 
    /*****Sedans*****/
    .sedans {
@@ -236,11 +236,12 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 1400) {
+@media only screen and (min-width: 1400px) {
   /* Style adjustments for viewports that meet the condition */
 
   /*****Desktop Styles****/
-  .card {margin: 0;
+  .card {
+  
   }
 }
 

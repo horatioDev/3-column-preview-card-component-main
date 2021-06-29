@@ -93,20 +93,37 @@ textarea {
     font-size: 15px;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
    }
 
    p {
     color: hsla(0, 0%, 100%, 0.75);
    }
 
-   /*****Card Styles*****/
+   h1, button {
+     color: hsl(0, 0%, 95%);
+     font-family: 'Lexend Deca', sans-serif;;
+     text-transform: uppercase;
+   }
 
+   /*****Card Styles*****/
+    #card {
+      border: 2px red solid;
+      display: flex;
+
+    }
    /*****Sedans*****/
+   .sedans {
+     background-color: hsl(31, 77%, 52%);
+     
+   }
    /*****Suvs*****/
+   .suvs {
+     background-color: hsl(184, 100%, 22%);
+   }
    /*****Luxury*****/
+   .luxury {
+     background-color: hsl(179, 100%, 13%);
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */

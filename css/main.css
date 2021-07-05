@@ -116,10 +116,7 @@ textarea {
 
    /*****Card Styles*****/
     .card {
-      border: 2px red solid;
-      border-radius: 10px;
-      display: flex;
-      flex-flow: wrap;
+      border-radius: 20px;
       margin: 90px 20px;
     }
 
@@ -240,9 +237,16 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 
   /*****Desktop Styles****/
-  .card {
-  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
+
+ /*.cars 
+ }*/
+
 }
 
 @media print,

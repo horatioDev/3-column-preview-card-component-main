@@ -114,10 +114,12 @@ textarea {
      padding: 15px 30px;
    }
 
+   
+
    /*****Card Styles*****/
     .card {
-      border-radius: 20px;
-      margin: 90px 20px;
+    border-radius: 20px;
+    margin: 90px 20px;
     }
 
     .cars {
@@ -241,11 +243,19 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-flow: row wrap;
   }
-
- /*.cars 
- }*/
+ .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 90px 20px;
+  }
+  .cars {
+    padding: 50px;
+  }
 
 }
 

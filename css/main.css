@@ -90,17 +90,18 @@ textarea {
 
   /****Mobile First*****/
 
-   body {
-     
+  body {
     background-color: hsl(0, 0%, 95%);
     font-size: 15px;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-   }
+    padding: 40px;
+  }
 
    p {
     color: hsla(0, 0%, 100%, 0.75);
-    padding-bottom: 30px;
+    line-height: 1.4;
+    padding-bottom: 15px;
    }
 
    h2 {
@@ -118,6 +119,7 @@ textarea {
      text-align: center;
      transition-duration: 0.4s;
    }
+   
 
    .sedans button:hover  {
     background-color:hsl(31, 77%, 52%);
@@ -138,14 +140,8 @@ textarea {
     
 
    /*****Card Styles*****/
-    .card {
-    border-radius: 20px;
-    margin: 90px 20px;
-    }
 
     .cars {
-      box-sizing: border-box;
-      height: 500px;
       padding: 50px 50px 40px;
     }
 
@@ -153,9 +149,9 @@ textarea {
    .sedans {
      background-color: hsl(31, 77%, 52%);
    }
-   /*.sedans button {
+   .sedans button {
     color: hsl(31, 77%, 52%);
-   }*/
+   }
    /*****Suvs*****/
    .suvs {
      background-color: hsl(184, 100%, 22%);
@@ -170,6 +166,7 @@ textarea {
    .luxury button{
      color:hsl(179, 100%, 13%);
    }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -258,29 +255,29 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 1400px) {
-  /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 1400px) {
+    /* Style adjustments for viewports that meet the condition */
+  
+    /*****Desktop Styles****/
+    body {
+        box-sizing: border-box;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column wrap;
+    }
+    article.content {
+        height: 500px;
+    }
 
-  /*****Desktop Styles****/
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    .cars {
+        width: 300px;
+        padding: 0;
+    }
   }
-
- .card {
-    display: flex;
-    flex-direction: row;
-    padding: ;
-  }
-  .cars {
-    height: 500px;
-    width: 300px;
-  }
-
-}
-
+  
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),

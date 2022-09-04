@@ -67,9 +67,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Horatio Hanley](https://www.your-site.com)
+- Frontend Mentor - [@Ray-Xavier-2021](https://www.frontendmentor.io/profile/Ray-Xavier-2021)
+- GitHub - [@Ray-Xavier-2021](https://github.com/Ray-Xavier-2021)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
